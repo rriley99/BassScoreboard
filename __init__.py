@@ -20,6 +20,7 @@ print(tally)
 #     return None
     
 def calculate_sack(tally, max_num_fish=5):
+    """This function adds fish to the tally"""
     sack_array = []
     big_bass = float
     boat_number = input("Please insert boat number: ")
